@@ -18,6 +18,7 @@ export default function MyTabs() {
           ),
         }}
       />
+
       <Tab.Screen
         name="ADD LIST"
         component={AddList}
@@ -28,6 +29,7 @@ export default function MyTabs() {
           ),
         }}
       />
+
       <Tab.Screen
         name="ADD CATEGORY"
         component={AddCategory}
